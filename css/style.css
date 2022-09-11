@@ -1,0 +1,45 @@
+html, body{
+    background: linear-gradient(219deg, #d2e1e5 20%, #98cfa2);
+    margin: 0;
+    padding: 0;
+}
+
+.relogio{
+   
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.display{
+
+   background-color: rgb(52, 66, 61);
+   width: 495px;
+   height: 200px;
+   text-align: center;
+   line-height: 200px;
+   border-radius: 10px;
+   color: aliceblue;
+   font-size: 7rem;
+   font-family: 'Dancing Script', cursive;
+   transition: all .5s;
+   border: 10px solid #131414;
+   
+}
+
+.display:hover{
+   
+    border: 10px solid #3a7a53;
+    border-radius: 500%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.2);
+    transform: rotateZ(-360deg) scale(1.2);
+}
+
+footer{
+    font-size: 4rem;
+    font-family: 'Qwitcher Grypen', cursive;
+}
